@@ -1,0 +1,3 @@
+(HtmlElement) = import(§core§)
+stackPanel = (...content: List(HtmlElement)): HtmlElement =>
+	container.push(createElement(§div§ (style = §display: flex;§)))

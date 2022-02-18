@@ -1,0 +1,12 @@
+# TODO generic HtmlElement Type? HtmlElement(§div§) etc
+HtmlElement = (
+	# TODO?
+)
+
+# TODO union type für tag: div, ...
+createElement = (
+	tag: String
+	style: String
+): HtmlElement =>
+	# TODO nativeFunction?
+	runJS(§document.createElement(§(tag))§)
