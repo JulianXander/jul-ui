@@ -5,8 +5,8 @@ HtmlElement = (
 
 # TODO union type für tag: div, ...
 createElement = (
-	tag: String
-	style: String
+	tag: Text
+	style: Text
 ): HtmlElement =>
 	# TODO nativeFunction?
 	runJS(§document.createElement(§(tag))§)
